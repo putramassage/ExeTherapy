@@ -1,0 +1,2735 @@
+{
+  "project": "DoRehab ID — Portal Rehabilitasi & Cedera Olahraga Berbasis Bukti Ilmiah",
+  "version": "1.0.0",
+  "language": "id",
+  "grades": {
+    "1": {
+      "label": "Derajat 1 — Robekan Ringan (Little Tear)",
+      "summary": "Serat mengalami peregangan atau robekan mikroskopik tanpa instabilitas sendi yang nyata."
+    },
+    "2": {
+      "label": "Derajat 2 — Robekan Parsial (Partial Tear)",
+      "summary": "Robekan sebagian serat dengan nyeri lebih jelas, bengkak, dan keterbatasan fungsi/stabilitas."
+    },
+    "3": {
+      "label": "Derajat 3 — Robekan Total / Ruptur (Complete Tear)",
+      "summary": "Putusnya kontinuitas jaringan secara menyeluruh; memerlukan evaluasi ortopedi/fisioterapi intensif."
+    }
+  },
+  "injuries": [
+    {
+      "id": "acl",
+      "name": "Cedera Ligamen Lutut (ACL)",
+      "category": "Sendi Lutut",
+      "definition": "Cedera atau robekan pada Anterior Cruciate Ligament (ACL) di dalam sendi lutut yang berfungsi menahan pergeseran tibia ke depan (anterior translation) dan menstabilkan rotasi lutut.",
+      "mechanism": "Umumnya terjadi akibat mekanisme non-kontak seperti pendaratan dengan lutut valgus (kolaps ke dalam), deselerasi mendadak, atau pivot/berbelok cepat dengan kaki menapak kuat di tanah.",
+      "anatomy": "Anterior Cruciate Ligament (ACL), dibantu stabilitas dinamis oleh otot hamstring, quadriceps, dan gastrocnemius.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–49 hari",
+          "rtp": "50–70 hari"
+        },
+        "2": {
+          "acute": "1–10 hari",
+          "proliferation": "11–35 hari",
+          "remodelling": "36–84 hari",
+          "rtp": "85–140 hari"
+        },
+        "3": {
+          "acute": "1–14 hari (pra/pasca-operasi)",
+          "proliferation": "15–42 hari",
+          "remodelling": "43–150 hari",
+          "rtp": "151–270+ hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Kontrol nyeri & bengkak, proteksi ligamen, pemulihan ROM awal (ekstensi penuh & fleksi awal), serta aktivasi quadriceps tanpa beban berlebih.",
+          "tools": [
+            "Berat badan sendiri",
+            "Handuk gulung",
+            "Dinding / kursi"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Ankle Pumps & Quad Sets (Duduk/Berbaring)",
+              "muscle": "Quadriceps femoris & tibialis anterior",
+              "benefit": "Meningkatkan sirkulasi vena dan mengaktifkan kontraksi isometrik quadriceps tanpa geser tibia berlebih.",
+              "freq": "3–4x / hari",
+              "intensity": "RPE 2–3/10 (tanpa nyeri tajam)",
+              "duration": "5–8 menit",
+              "type": "Open Kinetic Chain (Isometrik)",
+              "volume": "3 set × 10–15 repetisi (tahan 5 detik)"
+            },
+            {
+              "no": 2,
+              "name": "Heel Slides di Lantai/Matras",
+              "muscle": "Hamstring & quadriceps (kontrol eksentrik ringan)",
+              "benefit": "Mengembalikan Range of Motion (ROM) fleksi lutut secara bertahap dengan gesekan minim.",
+              "freq": "3x / hari",
+              "intensity": "RPE 3–4/10 (regangan ringan)",
+              "duration": "5–8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Towel Extension Stretch (Peregangan Ekstensi Lutut)",
+              "muscle": "Hamstring posterior & kapsul sendi lutut",
+              "benefit": "Mencegah kontraktur fleksi dan mengejar ekstensi lutut 0° sedini mungkin.",
+              "freq": "3x / hari",
+              "intensity": "RPE 3–4/10",
+              "duration": "6–10 menit",
+              "type": "Open Kinetic Chain (Pasif/Bantu)",
+              "volume": "3 set × tahan 30–45 detik"
+            },
+            {
+              "no": 4,
+              "name": "Mini Weight Shift Berdiri (Topangan Tangan)",
+              "muscle": "Quadriceps, gluteus medius & core",
+              "benefit": "Memperkenalkan pembebanan bertahap dan kontrol keseimbangan awal pada tungkai cedera.",
+              "freq": "2–3x / hari",
+              "intensity": "RPE 3–4/10 (20–50% berat badan)",
+              "duration": "5–10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 kali pergeseran"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Pembentukan jaringan kolagen baru, peningkatan ROM penuh, penguatan quadriceps & hamstring terkontrol, serta perbaikan kontrol neuromuskular.",
+          "tools": [
+            "Berat badan sendiri",
+            "Kursi / bangku rendah",
+            "Dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Wall Sit Isometric Hold",
+              "muscle": "Quadriceps femoris & gluteus maximus",
+              "benefit": "Membangun daya tahan isometrik otot paha depan dengan sudut aman (30°–60°).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "8–12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3–4 set × tahan 20–30 detik"
+            },
+            {
+              "no": 2,
+              "name": "Glute Bridge Dua Kaki",
+              "muscle": "Gluteus maximus, hamstring & erector spinae",
+              "benefit": "Menguatkan rantai posterior panggul-hamstring untuk membantu stabilitas dinamis lutut.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 12–15 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Sit-to-Stand ke Kursi",
+              "muscle": "Quadriceps, gluteus maximus & soleus",
+              "benefit": "Melatih transisi beban fungsional dari duduk ke berdiri dengan kontrol lutut sejajar jari kaki.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10–12 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Single-Leg Balance Berdiri di Matras/Lantai",
+              "muscle": "Peroneus, tibialis, gluteus medius & otot intrinsik kaki",
+              "benefit": "Meningkatkan propriosepsi dan stabilitas postural satu tungkai.",
+              "freq": "3–4x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "8–10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 20–30 detik / sisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Penguatan serat kolagen sesuai garis gaya biomekanik, peningkatan kekuatan eksentrik & konsentrik, kontrol valgus lutut, serta persiapan lari lurus.",
+          "tools": [
+            "Berat badan sendiri",
+            "Step / anak tangga",
+            "Matras"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Forward Step-Up Terkontrol",
+              "muscle": "Quadriceps, gluteus maximus & gluteus medius",
+              "benefit": "Melatih kekuatan konsentrik dan eksentrik satu tungkai dengan kontrol arah lutut.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6–7/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi / kaki"
+            },
+            {
+              "no": 2,
+              "name": "Reverse Lunge Bodyweight",
+              "muscle": "Quadriceps, gluteus maximus & hamstring",
+              "benefit": "Mengembangkan kontrol eksentrik tungkai depan dengan tekanan geser anterior lebih rendah dibanding lunge maju.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7/10",
+              "duration": "12–15 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi / kaki"
+            },
+            {
+              "no": 3,
+              "name": "Single-Leg Glute Bridge",
+              "muscle": "Gluteus maximus, hamstring & core stabilisator",
+              "benefit": "Mengatasi asimetri kekuatan pinggul-hamstring antar sisi kiri dan kanan.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi / kaki"
+            },
+            {
+              "no": 4,
+              "name": "Split Squat dengan Kontrol Lutut",
+              "muscle": "Quadriceps, adductor magnus & gluteus medius",
+              "benefit": "Meningkatkan kapasitas beban vertikal dan stabilitas frontal/sagittal lutut.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7–8/10",
+              "duration": "12–15 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3–4 set × 8 repetisi / kaki"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Latihan plyometrik bertahap, penyerapan gaya pendaratan (landing mechanics), kelincahan terarah, dan kesiapan kembali ke olahraga spesifik.",
+          "tools": [
+            "Berat badan sendiri",
+            "Penanda lantai / garis",
+            "Area lapangan datar"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Two-Footed Pogo Hops (Rendah)",
+              "muscle": "Gastrocnemius, soleus, tendon Achilles & quadriceps",
+              "benefit": "Memperkenalkan siklus peregangan-pemendekan (SSC) ringan dan elastisitas tendon.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6–7/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 15–20 pantulan"
+            },
+            {
+              "no": 2,
+              "name": "Jump Squat dengan Soft Landing",
+              "muscle": "Quadriceps, gluteus maximus & gastrocnemius",
+              "benefit": "Melatih produksi daya ledak dan peredaman gaya tanah secara lembut tanpa valgus lutut.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 7–8/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3–4 set × 6–8 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Lateral Shuffle & Deceleration Stop",
+              "muscle": "Gluteus medius, adductor, quadriceps & hamstring",
+              "benefit": "Melatih pengereman mendadak dan perpindahan arah lateral terkontrol.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 8/10",
+              "duration": "12–15 menit",
+              "type": "Closed Kinetic Chain (Agilitas)",
+              "volume": "4 set × 3–4 lintasan (10–15 m)"
+            },
+            {
+              "no": 4,
+              "name": "Single-Leg Hop & Stick Stabilization",
+              "muscle": "Seluruh otot tungkai bawah & stabilisator panggul",
+              "benefit": "Menguji stabilitas dinamis satu kaki saat mendarat dan menahan momentum.",
+              "freq": "2x / minggu",
+              "intensity": "RPE 8–9/10",
+              "duration": "12–15 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 5–6 lompatan / kaki"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hip-subluxation",
+      "name": "Subluksasi Sendi Panggul",
+      "category": "Sendi Panggul",
+      "definition": "Pergeseran parsial dan sementara kaput femur keluar dari soket acetabulum tanpa dislokasi total yang menetap, disertai peregangan atau iritasi kapsul sendi dan labrum/ligamen sekitar.",
+      "mechanism": "Terjadi akibat benturan aksial sepanjang femur saat panggul fleksi, rotasi internal/eksternal ekstrem, atau gerakan traksi/geser mendadak pada olahraga kontak maupun seni bela diri.",
+      "anatomy": "Kaput femur, acetabulum, labrum asetabular, ligamen iliofemoralis, serta otot gluteus maximus, gluteus medius, piriformis, dan iliopsoas.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–63 hari"
+        },
+        "2": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–70 hari",
+          "rtp": "71–112 hari"
+        },
+        "3": {
+          "acute": "1–21 hari (evaluasi medis ketat)",
+          "proliferation": "22–49 hari",
+          "remodelling": "50–105 hari",
+          "rtp": "106–168 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Menurunkan nyeri dan spasme pelindung, menjaga posisi sendi yang nyaman (menghindari posisi pemicu subluksasi), serta aktivasi otot panggul ringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Bantal / handuk",
+            "Matras"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Supine Pelvic Tilt (Kontrol Panggul)",
+              "muscle": "Rectus abdominis, transversus abdominis & gluteus",
+              "benefit": "Mengurangi ketegangan lumbopelvik dan menstabilkan posisi netral panggul tanpa beban sendi besar.",
+              "freq": "3x / hari",
+              "intensity": "RPE 2–3/10",
+              "duration": "6–8 menit",
+              "type": "Closed Kinetic Chain (Kontrol Postur)",
+              "volume": "3 set × 10–12 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Isometric Glute Squeeze Terlentang",
+              "muscle": "Gluteus maximus",
+              "benefit": "Mengaktifkan ekstensor pinggul utama dengan stabilitas maksimal di permukaan datar.",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "6 menit",
+              "type": "Open Kinetic Chain (Isometrik)",
+              "volume": "3 set × 10 tahan 5 detik"
+            },
+            {
+              "no": 3,
+              "name": "Heel Slide Ringan Rentang Aman",
+              "muscle": "Iliopsoas & hamstring (kontrol ringan)",
+              "benefit": "Mempertahankan mobilitas fleksi pinggul dalam batas bebas nyeri tajam atau sensasi 'klik' tidak stabil.",
+              "freq": "2–3x / hari",
+              "intensity": "RPE 3–4/10",
+              "duration": "6–8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Clamshell Rentang Kecil (Bantal di Lutut)",
+              "muscle": "Gluteus medius & rotators eksternal panggul",
+              "benefit": "Melatih aktivasi abduktor/eksternal rotator terkontrol dalam rentang aman.",
+              "freq": "2–3x / hari",
+              "intensity": "RPE 3–4/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Memperkuat stabilisator kapsul dan otot sekitar panggul, meningkatkan kontrol motorik lumbopelvik, serta mengembalikan pola jalan normal.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras",
+            "Kursi"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Bridging dengan Bantal di Antara Lutut",
+              "muscle": "Gluteus maximus & adductor magnus",
+              "benefit": "Menguatkan ekstensor panggul sambil menjaga ko-kontraksi adduktor untuk sentrasi kaput femur.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 12 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Side-Lying Hip Abduction Terkontrol",
+              "muscle": "Gluteus medius & tensor fasciae latae (kontrol)",
+              "benefit": "Meningkatkan kekuatan abduktor panggul pada bidang frontal.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10–12 repetisi / sisi"
+            },
+            {
+              "no": 3,
+              "name": "Bird-Dog di Matras",
+              "muscle": "Gluteus maximus, multifidus, transversus abdominis & deltoid",
+              "benefit": "Melatih stabilitas panggul dan inti tubuh secara kontralateral.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5–6/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi / sisi"
+            },
+            {
+              "no": 4,
+              "name": "Box Squat Dangkal Bodyweight",
+              "muscle": "Gluteus maximus, quadriceps & adductor",
+              "benefit": "Melatih kontrol kedalaman fleksi panggul yang aman dengan target bangku.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan ketahanan otot stabilisator panggul di bawah beban lebih tinggi, kontrol rotasi/geser sendi, dan keseimbangan dinamis.",
+          "tools": [
+            "Berat badan sendiri",
+            "Anak tangga / step",
+            "Dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Single-Leg Bridge",
+              "muscle": "Gluteus maximus & hamstring",
+              "benefit": "Meningkatkan kekuatan ekstensi panggul unilateral dan mencegah penurunan panggul kontralateral.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi / sisi"
+            },
+            {
+              "no": 2,
+              "name": "Step-Up Lateral Terkontrol",
+              "muscle": "Gluteus medius, gluteus maximus & quadriceps",
+              "benefit": "Melatih kontrol lateral panggul saat naik ke permukaan lebih tinggi.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8–10 repetisi / sisi"
+            },
+            {
+              "no": 3,
+              "name": "Good Morning Bodyweight (Lutut Sedikit Fleksi)",
+              "muscle": "Gluteus maximus, hamstring & erector spinae",
+              "benefit": "Melatih hip hinge terkontrol dan daya tahan rantai posterior.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10–12 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Single-Leg Romanian Deadlift (RDL) Bodyweight",
+              "muscle": "Gluteus maximus, hamstring & stabilisator pergelangan/panggul",
+              "benefit": "Mengembangkan keseimbangan dinamis dan kontrol eksentrik panggul satu kaki.",
+              "freq": "3x / minggu",
+              "intensity": "RPE 7–8/10",
+              "duration": "12–15 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 6–8 repetisi / kaki"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Menyiapkan sendi panggul menghadapi gaya impuls tinggi, perubahan arah, dan gerakan spesifik cabang olahraga dengan kontrol penuh.",
+          "tools": [
+            "Berat badan sendiri",
+            "Penanda lantai",
+            "Ruang gerak luas"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Lateral Bound dengan Kontrol Pendaratan",
+              "muscle": "Gluteus medius, gluteus maximus & quadriceps",
+              "benefit": "Melatih peredaman gaya lateral dan stabilitas panggul saat melompat ke samping.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 7–8/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 6 lompatan / sisi"
+            },
+            {
+              "no": 2,
+              "name": "Squat Jump Bodyweight",
+              "muscle": "Gluteus maximus, quadriceps & gastrocnemius",
+              "benefit": "Meningkatkan daya ledak vertikal panggul dan tungkai bawah.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 7–8/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 6–8 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Carioca / Braiding Step Terkontrol",
+              "muscle": "Gluteus medius, adductor & rotators panggul",
+              "benefit": "Melatih koordinasi rotasi dan silang langkah panggul secara bertahap.",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 8/10",
+              "duration": "10–12 menit",
+              "type": "Closed Kinetic Chain (Agilitas)",
+              "volume": "3 set × 20 meter"
+            },
+            {
+              "no": 4,
+              "name": "Simulasi Gerak Olahraga Bertahap (Non-Kontak ke Kontak)",
+              "muscle": "Seluruh otot panggul, inti tubuh & tungkai",
+              "benefit": "Menyatukan kekuatan, stabilitas, dan ketepatan gerak spesifik cabang olahraga.",
+              "freq": "2x / minggu",
+              "intensity": "RPE 8–9/10",
+              "duration": "15 menit",
+              "type": "Closed Kinetic Chain (Fungsional)",
+              "volume": "3–4 blok × 30–45 detik"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ankle-sprain",
+      "name": "Keseleo Pergelangan Kaki (Ankle Sprain)",
+      "category": "Pergelangan Kaki",
+      "definition": "Cedera regangan atau robekan ligamen pada sendi pergelangan kaki, paling sering inversi lateral pada ligamen kompleks lateral.",
+      "mechanism": "Terjadi saat pergelangan kaki mengalami inversi dan plantar fleksi mendadak ketika mendarat, melangkah di permukaan tidak rata, atau berbelok cepat.",
+      "anatomy": "Anterior Talofibular Ligament (ATFL), Calcaneofibular Ligament (CFL), otot peroneus longus/brevis, dan tibialis anterior.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–49 hari",
+          "rtp": "50–77 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–84 hari",
+          "rtp": "85–140 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Keseleo Pergelangan Kaki (Ankle Sprain) — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Tibialis anterior & peroneus",
+              "benefit": "Menstabilkan pergelangan kaki & mengembalikan ROM dorsifleksi (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hamstring-strain",
+      "name": "Regangan Otot Hamstring",
+      "category": "Paha Belakang",
+      "definition": "Kerusakan serat otot atau tendon pada kelompok otot hamstring di bagian posterior paha akibat beban tarik berlebih.",
+      "mechanism": "Sering muncul saat lari sprint kecepatan tinggi, akselerasi mendadak, atau peregangan/fleksi pinggul maksimal dengan lutut ekstensi.",
+      "anatomy": "Biceps femoris (terutama caput longum), semitendinosus, dan semimembranosus.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–49 hari",
+          "rtp": "50–77 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–77 hari",
+          "rtp": "78–133 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Hamstring — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Biceps femoris, semitendinosus & semimembranosus",
+              "benefit": "Menguatkan rantai posterior & daya tahan eksentrik hamstring (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "adductor-groin-strain",
+      "name": "Regangan Otot Adduktor Panggul & Selangkangan",
+      "category": "Panggul & Selangkangan",
+      "definition": "Cedera regangan atau robekan pada otot-otot adduktor paha bagian dalam dan daerah pertemuan tendon di selangkangan.",
+      "mechanism": "Terjadi saat perubahan arah lateral mendadak, menendang bola menyilang, atau abduksi panggul berlebihan melawan kontraksi otot.",
+      "anatomy": "Adductor longus, adductor brevis, adductor magnus, gracilis, dan pectineus.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–49 hari",
+          "rtp": "50–77 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–77 hari",
+          "rtp": "78–133 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Otot Adduktor Panggul & Selangkangan — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Adductor longus, gracilis & adductor magnus",
+              "benefit": "Meningkatkan toleransi beban adduktor & stabilitas panggul (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lumbar-spine-strain",
+      "name": "Regangan Tulang Belakang Lumbal",
+      "category": "Punggung Bawah",
+      "definition": "Cedera peregangan atau mikro-robekan pada serat otot paraspinal dan ligamen interspinosus/supraspinosus di regio lumbal (L1–L5).",
+      "mechanism": "Dipicu angkat beban dengan postur membungkuk/terpuntir, gerakan mendadak, atau kelelahan otot inti saat latihan berulang.",
+      "anatomy": "Erector spinae, multifidus, quadratus lumborum, serta otot inti transversus abdominis dan oblique.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–70 hari"
+        },
+        "3": {
+          "acute": "1–10 hari",
+          "proliferation": "11–28 hari",
+          "remodelling": "29–63 hari",
+          "rtp": "64–105 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Regangan Tulang Belakang Lumbal — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Multifidus, erector spinae & transversus abdominis",
+              "benefit": "Menstabilkan tulang belakang lumbal & mengurangi nyeri gerak (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rotator-cuff",
+      "name": "Cedera Manset Rotator (Rotator Cuff)",
+      "category": "Bahu",
+      "definition": "Peradangan, tendinopati, atau robekan pada salah satu atau lebih tendon otot manset rotator yang menyelimuti sendi glenohumeral bahu.",
+      "mechanism": "Terjadi akibat gerakan overhead berulang (lempar, smash, renang), tarikan mendadak, atau jatuh menumpu lengan.",
+      "anatomy": "Supraspinatus, infraspinatus, teres minor, dan subscapularis.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–63 hari"
+        },
+        "2": {
+          "acute": "1–10 hari",
+          "proliferation": "11–28 hari",
+          "remodelling": "29–63 hari",
+          "rtp": "64–105 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–42 hari",
+          "remodelling": "43–98 hari",
+          "rtp": "99–180 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Manset Rotator (Rotator Cuff) — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Supraspinatus, infraspinatus, teres minor & subscapularis",
+              "benefit": "Menstabilkan kaput humerus & mengembalikan kontrol bahu (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tennis-elbow",
+      "name": "Tennis Elbow",
+      "category": "Siku",
+      "definition": "Tendinopati atau mikro-robekan pada tendon ekstensor lengan bawah di epikondilus lateral humerus akibat beban berlebih.",
+      "mechanism": "Disebabkan ekstensi pergelangan tangan dan genggaman berulang pada raket, olahraga lapangan, atau aktivitas manual.",
+      "anatomy": "Extensor carpi radialis brevis (ECRB), extensor digitorum, dan brachioradialis.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–63 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–28 hari",
+          "remodelling": "29–63 hari",
+          "rtp": "64–98 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–84 hari",
+          "rtp": "85–140 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Tennis Elbow — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Tennis Elbow — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Tennis Elbow — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Tennis Elbow — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Tennis Elbow — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Tennis Elbow — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Tennis Elbow — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Tennis Elbow — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Tennis Elbow — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Tennis Elbow — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Tennis Elbow — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Tennis Elbow — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Tennis Elbow — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Tennis Elbow — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Tennis Elbow — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Tennis Elbow — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Extensor carpi radialis brevis & ekstensor lengan bawah",
+              "benefit": "Memperbaiki kapasitas beban tendon ekstensor siku (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hnp-l4-c1",
+      "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1)",
+      "category": "Tulang Belakang (Servikal–Lumbal)",
+      "definition": "Penonjolan atau ekstrusi nukleus pulposus melalui anulus fibrosus diskus intervertebralis di segmen servikal atas (C1) hingga lumbal bawah (L4) yang dapat mengiritasi akar saraf.",
+      "mechanism": "Terjadi akibat kombinasi fleksi dan rotasi berulang, tekanan intradiskal tinggi saat mengangkat beban, atau trauma deselerasi/akselerasi.",
+      "anatomy": "Diskus intervertebralis (nukleus pulposus & anulus fibrosus), ligamen longitudinalis, otot deep neck flexors / multifidus.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–70 hari"
+        },
+        "2": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–70 hari",
+          "rtp": "71–112 hari"
+        },
+        "3": {
+          "acute": "1–21 hari",
+          "proliferation": "22–49 hari",
+          "remodelling": "50–98 hari",
+          "rtp": "99–168 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Hernia Nukleus Pulposus (HNP L4 hingga C1) — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Deep neck flexors, transversus abdominis & multifidus",
+              "benefit": "Mengurangi iritasi saraf & membangun stabilitas segmen tulang belakang (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mcl-sprain",
+      "name": "Cedera Ligamen Lutut Medial (MCL)",
+      "category": "Sendi Lutut",
+      "definition": "Regangan atau robekan pada Medial Collateral Ligament (MCL) di sisi dalam sendi lutut yang menahan gaya valgus dan rotasi eksternal tibia.",
+      "mechanism": "Umumnya terjadi akibat benturan dari sisi luar lutut (valgus force) atau perubahan arah mendadak dengan beban pada kaki.",
+      "anatomy": "Medial Collateral Ligament (MCL superfisial & profunda), kapsul medial, dan otot pes anserinus.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–70 hari"
+        },
+        "3": {
+          "acute": "1–14 hari",
+          "proliferation": "15–35 hari",
+          "remodelling": "36–70 hari",
+          "rtp": "71–119 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Cedera Ligamen Lutut Medial (MCL) — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Quadriceps, hamstring medial & pes anserinus",
+              "benefit": "Melindungi stabilitas valgus lutut & mengembalikan ROM (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shin-splints",
+      "name": "Shin Splints",
+      "category": "Tungkai Bawah (Tibia)",
+      "definition": "Nyeri akibat beban berlebih pada sisi posteromedial atau anterior tulang tibia (sering terkait Medial Tibial Stress Syndrome / periostitis traksi).",
+      "mechanism": "Muncul akibat peningkatan volume atau intensitas lari/lompat terlalu cepat, permukaan keras, atau pronasi kaki berlebih.",
+      "anatomy": "Tibialis posterior, soleus, flexor digitorum longus, dan fasia/periosteum tibia.",
+      "days_by_grade": {
+        "1": {
+          "acute": "1–5 hari",
+          "proliferation": "6–14 hari",
+          "remodelling": "15–28 hari",
+          "rtp": "29–42 hari"
+        },
+        "2": {
+          "acute": "1–7 hari",
+          "proliferation": "8–21 hari",
+          "remodelling": "22–42 hari",
+          "rtp": "43–63 hari"
+        },
+        "3": {
+          "acute": "1–10 hari",
+          "proliferation": "11–28 hari",
+          "remodelling": "29–56 hari",
+          "rtp": "57–91 hari"
+        }
+      },
+      "phases": {
+        "acute": {
+          "title": "Fase Akut",
+          "focus": "Mengontrol nyeri, iritasi jaringan, dan bengkak serta memulai gerakan ringan bebas nyeri.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Shin Splints — Latihan Tahap 1 (Fase Akut)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 1 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Shin Splints — Latihan Tahap 2 (Fase Akut)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 2 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Open Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Shin Splints — Latihan Tahap 3 (Fase Akut)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 3 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Shin Splints — Latihan Tahap 4 (Fase Akut)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 4 dari 4 pada Fase Akut).",
+              "freq": "3x / hari",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            }
+          ]
+        },
+        "proliferation": {
+          "title": "Fase Proliferasi",
+          "focus": "Membangun kembali kekuatan dasar, mobilitas fungsional, dan kontrol otot bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Shin Splints — Latihan Tahap 1 (Fase Proliferasi)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 1 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Shin Splints — Latihan Tahap 2 (Fase Proliferasi)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 2 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Shin Splints — Latihan Tahap 3 (Fase Proliferasi)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 3 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Shin Splints — Latihan Tahap 4 (Fase Proliferasi)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 4 dari 4 pada Fase Proliferasi).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "remodelling": {
+          "title": "Fase Remodelling",
+          "focus": "Meningkatkan kekuatan beban lebih tinggi dan koordinasi gerak sesuai arah tekanan jaringan.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Shin Splints — Latihan Tahap 1 (Fase Remodelling)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 1 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Shin Splints — Latihan Tahap 2 (Fase Remodelling)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 2 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Shin Splints — Latihan Tahap 3 (Fase Remodelling)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 3 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Shin Splints — Latihan Tahap 4 (Fase Remodelling)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 4 dari 4 pada Fase Remodelling).",
+              "freq": "3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        },
+        "rtp": {
+          "title": "Fase Kembali ke Performa",
+          "focus": "Melatih daya ledak, kelincahan, dan kesiapan gerak spesifik olahraga secara bertahap.",
+          "tools": [
+            "Berat badan sendiri",
+            "Matras / kursi / dinding"
+          ],
+          "exercises": [
+            {
+              "no": 1,
+              "name": "Shin Splints — Latihan Tahap 1 (Fase Kembali ke Performa)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 1 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 3/10",
+              "duration": "8 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 11 repetisi"
+            },
+            {
+              "no": 2,
+              "name": "Shin Splints — Latihan Tahap 2 (Fase Kembali ke Performa)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 2 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 4/10",
+              "duration": "10 menit",
+              "type": "Closed Kinetic Chain (Plyometrik)",
+              "volume": "3 set × 10 repetisi"
+            },
+            {
+              "no": 3,
+              "name": "Shin Splints — Latihan Tahap 3 (Fase Kembali ke Performa)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 3 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 5/10",
+              "duration": "12 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 9 repetisi"
+            },
+            {
+              "no": 4,
+              "name": "Shin Splints — Latihan Tahap 4 (Fase Kembali ke Performa)",
+              "muscle": "Soleus, tibialis posterior & otot intrinsik kaki",
+              "benefit": "Meningkatkan kapasitas toleransi beban tulang & betis (tingkat kesulitan 4 dari 4 pada Fase Kembali ke Performa).",
+              "freq": "2–3x / minggu",
+              "intensity": "RPE 6/10",
+              "duration": "14 menit",
+              "type": "Closed Kinetic Chain (Fungsional/Agilitas)",
+              "volume": "3 set × 8 repetisi"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
